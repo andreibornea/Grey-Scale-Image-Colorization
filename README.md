@@ -23,6 +23,15 @@ Attention Mechanisms: These allow the model to focus on specific parts of the im
 
 3. Loss Function
 
-The model will be trained using a combination of adversarial loss from the cGAN framework and L1 loss. The adversarial loss encourages the generator to create images that the discriminator cannot distinguish from real images. The L1 loss acts as a regression task to help the model learn the true color values of the image pixels.
 
-To better address the multimodal nature of the colorization task, the model will be trained to predict a distribution of possible colors for each pixel and will be rewarded more for predicting rare colors. The final colorization will be produced by taking the annealed mean of the predicted color distribution.
+The GAN Loss function for this architecture will incorporate elements to address the inherent color imbalance in image colorization tasks. This is done by replacing the standard cross entropy loss with a weighted loss.
+
+This imbalance arises because the distribution of colors in images often favors desaturated or greyish colors, making colorful colors less common and thus less favored in the standard loss calculation. By using a weighted loss based on the prior probabilities of the color classes, we can counterbalance this preference.
+
+The weights for the loss function are determined from the inverse log-probability of the color class distribution, which is calculated from a pre-existing 'prior_probs.npy' file. The idea here is to assign more importance to underrepresented (i.e., more colorful) classes.
+
+By doing so, we reduce the chance that these underrepresented classes will be neglected by the model during training. This helps the model to produce more vibrant and diverse colors in the final colorized images, enhancing their aesthetic quality.
+
+This approach has been utilized and discussed in detail in the paper "Colorful Image Colorization" by Richard Zhang et al.
+
+In summary, the GAN loss for this architecture will be a combination of the adversarial loss and the weighted loss. The adversarial loss encourages the generator to produce colorized images that the discriminator cannot distinguish from real images, while the weighted loss rebalances the distribution of predicted colors towards more vibrant and diverse colors. This loss combination should make the model more effective at colorizing grayscale images in a visually pleasing manner.
