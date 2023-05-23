@@ -27,7 +27,7 @@ def colorize(gray_image2):
     colorized_image = color.lab2rgb(lab_image)
 
     colorized_image_save = Image.fromarray((colorized_image * 255).astype(np.uint8))
-    colorized_image_save.save(f'color.jpg')
+    colorized_image_save.save(f'../images/color.jpg')
 
     return colorized_image_save
 
