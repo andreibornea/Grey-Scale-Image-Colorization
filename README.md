@@ -1,5 +1,6 @@
 # Grey-Scale-Image-Colorization
-##Arhitecture
+
+## Arhitecture
 1. Conditional Generative Adversarial Networks (cGANs)
 
 The base model will be a conditional GAN (cGAN). In this model, a generator network learns to map grayscale images to colorized images. The generator takes a grayscale image as input and produces a 2-channel image (for *a and *b color channels in Lab color space).
