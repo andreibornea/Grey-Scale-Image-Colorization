@@ -89,7 +89,7 @@
       <workItem from="1684602004316" duration="4256000" />
       <workItem from="1684607340720" duration="3782000" />
       <workItem from="1684611415462" duration="29956000" />
-      <workItem from="1684851095725" duration="13021000" />
+      <workItem from="1684851095725" duration="13219000" />
     </task>
     <servers />
   </component>
@@ -100,7 +100,7 @@
     <SUITE FILE_PATH="coverage/Grey_Scale_Image_Colorization$config.coverage" NAME="config Coverage Results" MODIFIED="1684607104090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Grey_Scale_Image_Colorization$Models.coverage" NAME="Models Coverage Results" MODIFIED="1684805879368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Src" />
     <SUITE FILE_PATH="coverage/Grey_Scale_Image_Colorization$train.coverage" NAME="train Coverage Results" MODIFIED="1684606675995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Grey_Scale_Image_Colorization$UI.coverage" NAME="UI Coverage Results" MODIFIED="1684877028625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
+    <SUITE FILE_PATH="coverage/Grey_Scale_Image_Colorization$UI.coverage" NAME="UI Coverage Results" MODIFIED="1684881108276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
     <SUITE FILE_PATH="coverage/Grey_Scale_Image_Colorization$ImageColorization.coverage" NAME="ImageColorization Coverage Results" MODIFIED="1684871001897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
