@@ -7,6 +7,8 @@
     <list default="true" id="847e3e4c-bdb6-4939-9632-a95369bb267b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UI/color.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/color.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/color.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageColorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImageColorization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weights.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,9 +71,9 @@
       <recent name="C:\Users\andre\Grey-Scale-Image-Colorization" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\ML_Proj\Grey-Scale-Image-Colorization\images" />
       <recent name="C:\Users\andre\ML_Proj\Grey-Scale-Image-Colorization" />
       <recent name="C:\Users\andre\ML_Proj\Grey-Scale-Image-Colorization\weights" />
-      <recent name="C:\Users\andre\ML_Proj\Grey-Scale-Image-Colorization\images" />
       <recent name="C:\Users\andre\ML_Proj\Grey-Scale-Image-Colorization\UI" />
       <recent name="C:\Users\andre\ML_Proj\Grey-Scale-Image-Colorization\src" />
     </key>
@@ -87,7 +89,7 @@
       <workItem from="1684602004316" duration="4256000" />
       <workItem from="1684607340720" duration="3782000" />
       <workItem from="1684611415462" duration="29956000" />
-      <workItem from="1684851095725" duration="9324000" />
+      <workItem from="1684851095725" duration="13021000" />
     </task>
     <servers />
   </component>
@@ -98,7 +100,7 @@
     <SUITE FILE_PATH="coverage/Grey_Scale_Image_Colorization$config.coverage" NAME="config Coverage Results" MODIFIED="1684607104090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Grey_Scale_Image_Colorization$Models.coverage" NAME="Models Coverage Results" MODIFIED="1684805879368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Src" />
     <SUITE FILE_PATH="coverage/Grey_Scale_Image_Colorization$train.coverage" NAME="train Coverage Results" MODIFIED="1684606675995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Grey_Scale_Image_Colorization$UI.coverage" NAME="UI Coverage Results" MODIFIED="1684872468645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
+    <SUITE FILE_PATH="coverage/Grey_Scale_Image_Colorization$UI.coverage" NAME="UI Coverage Results" MODIFIED="1684877028625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
     <SUITE FILE_PATH="coverage/Grey_Scale_Image_Colorization$ImageColorization.coverage" NAME="ImageColorization Coverage Results" MODIFIED="1684871001897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

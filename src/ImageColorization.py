@@ -5,7 +5,7 @@ import numpy as np
 import torch
 from src.Models import get_model
 
-model = get_model("../weights/res18_unet.pt", "../weights/model_epoch20.pt")
+model = get_model("../weights/res18_unet.pt", "../weights/final_initial_weights.pt")
 
 def colorize(gray_image2):
     # Load image using Pillow and convert to RGB and then to numpy array
